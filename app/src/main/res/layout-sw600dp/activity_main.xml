@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <fragment
+    <FrameLayout
         android:id="@+id/tv_list_container"
-        class="com.baking_app.MainFragment"
+        android:name="com.baking_app.fragments.MainFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>
